@@ -113,7 +113,7 @@ class AboutApp extends StatelessWidget {
                               textAlign: TextAlign.center,
                             ),
                             Text(
-                              'Software Engineer',
+                              'Software Developer',
                               style: TextStyle(
                                 fontSize: 16,
                                 color: Colors.white,
