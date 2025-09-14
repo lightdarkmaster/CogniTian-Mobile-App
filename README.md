@@ -10,6 +10,13 @@ By: Christian Barbosa - BSIT, Software Developer
 
 This project is a mobile application that showcases the various features of Flutter. It includes a home page with a list of items, a drawer for navigation, and an information page with details about the project.
 
+## Sample Video
+
+The following video shows the application in action.
+
+<img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>
+<img src="Documentations/video2.gif" alt="Sample Video" width="300"/>
+
 ## Sample Images
 
 The following images show the various pages of the application.
@@ -20,13 +27,6 @@ The following images show the various pages of the application.
 <img src="Documentations/gemAPi.jpg" alt="Information Page" width="300"/>
 <img src="Documentations/sample_res.jpg" alt="Sample Response" width="300"/>
 <img src="Documentations/history.jpg" alt="History" width="300"/>
-
-## Sample Video
-
-The following video shows the application in action.
-
-<img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>
-<img src="Documentations/video2.gif" alt="Sample Video" width="300"/>
 
 </div>
 
