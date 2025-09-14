@@ -10,26 +10,30 @@ This project is a mobile application that showcases the various features of Flut
 
 The following images show the various pages of the application.
 
-### Home Page
-<img src="Documentations/intro.jpg" alt="Home Page" width="300"/>
-
-### Drawer
-<img src="Documentations/aboutapp.jpg" alt="Drawer" width="300"/>
-
-### Information Page
-<img src="Documentations/tech_use.jpg" alt="Information Page" width="300"/>
-
-### Sample Response
-<img src="Documentations/sample_res.jpg" alt="Sample Response" width="300"/>
-
-### History
-<img src="Documentations/history.jpg" alt="History" width="300"/>
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+Home Page
+    <img src="Documentations/intro.jpg" alt="Home Page" width="300"/>
+    
+Drawer
+    <img src="Documentations/aboutapp.jpg" alt="Drawer" width="300"/>
+    
+Information Page
+    <img src="Documentations/tech_use.jpg" alt="Information Page" width="300"/>
+    
+Sample Response
+    <img src="Documentations/sample_res.jpg" alt="Sample Response" width="300"/>
+    
+History
+    <img src="Documentations/history.jpg" alt="History" width="300"/>
+</div>
 
 ## Sample Video
 
 The following video shows the application in action.
 
+<p style="text-align: center;">
 [<img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>](Documentations/trySample.gif)
+</p>
 
 ## Getting Started
 
