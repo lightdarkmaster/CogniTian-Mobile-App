@@ -20,14 +20,16 @@ class AppDrawer extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           DrawerHeader(
-            decoration: BoxDecoration(color: Color(0xFF2F3339)),
-            child: Image.asset(
-              'assets/images/headers.png',
-              width: double.infinity,
-              height: 100,
-              fit: BoxFit.fill,
+            decoration: const BoxDecoration(
+              color: Color(0xFF2F3339),
+              image: DecorationImage(
+                image: AssetImage('assets/images/headers.png'),
+                fit: BoxFit.cover, // makes image cover the whole header
+              ),
             ),
+            child: null,
           ),
+
           ListTile(
             leading: const Icon(Icons.add, color: Colors.blueAccent),
             title: const Text(
@@ -69,6 +71,16 @@ class AppDrawer extends StatelessWidget {
                       );
                     },
                   ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: Center(
+              child: Text(
+                "ChanAI Mobile v1.0.0 \nDeveloped by: Christian Barbosa",
+                style: TextStyle(color: Colors.white54, fontSize: 12),
+                textAlign: TextAlign.center,
+              ),
+            ),
           ),
         ],
       ),

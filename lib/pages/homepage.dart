@@ -197,7 +197,7 @@ Widget _buildMessage(Map<String, String> message) {
       backgroundColor: const Color(0xFF1E1F23),
       appBar: AppBar(
         title: const Text(
-          "Chanai Mobile",
+          "CogniTian",
           style: TextStyle(
               color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
         ),
