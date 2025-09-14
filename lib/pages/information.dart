@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AboutApp extends StatelessWidget {
+  // ignore: use_key_in_widget_constructors
   const AboutApp({Key? key});
 
   @override

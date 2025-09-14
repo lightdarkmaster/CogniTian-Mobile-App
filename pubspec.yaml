@@ -71,6 +71,7 @@ flutter:
     - assets/images/https_gif.gif
     - assets/images/dart_services.gif
     - assets/images/convert.gif
+    - assets/images/infinityloading.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
