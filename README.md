@@ -15,15 +15,16 @@ The following images show the various pages of the application.
 <img src="Documentations/intro.jpg" alt="Home Page" width="300"/>
 <img src="Documentations/aboutapp.jpg" alt="Drawer" width="300"/>
 <img src="Documentations/tech_use.jpg" alt="Information Page" width="300"/>
+<img src="Documentations/gemAPi.jpg" alt="Information Page" width="300"/>
 <img src="Documentations/sample_res.jpg" alt="Sample Response" width="300"/>
 <img src="Documentations/history.jpg" alt="History" width="300"/>
-<img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>
 
 ## Sample Video
 
 The following video shows the application in action.
 
 <img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>
+<img src="Documentations/video2.gif" alt="Sample Video" width="300"/>
 
 ## Getting Started
 
