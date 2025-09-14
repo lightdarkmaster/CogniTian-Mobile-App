@@ -11,31 +11,25 @@ This project is a mobile application that showcases the various features of Flut
 The following images show the various pages of the application.
 
 ### Home Page
-
-![Home Page](Documentations/intro.jpg){ width="200" }
+<img src="Documentations/intro.jpg" alt="Home Page" width="300"/>
 
 ### Drawer
-
-![Drawer](Documentations/aboutapp.jpg){ width="200" }
+<img src="Documentations/aboutapp.jpg" alt="Drawer" width="300"/>
 
 ### Information Page
-
-![Information Page](Documentations/tech_use.jpg){ width="200" }
+<img src="Documentations/tech_use.jpg" alt="Information Page" width="300"/>
 
 ### Sample Response
-
-![Information Page](Documentations/sample_res.jpg){ width="200" }
-
+<img src="Documentations/sample_res.jpg" alt="Sample Response" width="300"/>
 
 ### History
-
-![History](Documentations/history.jpg){ width="200" }
+<img src="Documentations/history.jpg" alt="History" width="300"/>
 
 ## Sample Video
 
 The following video shows the application in action.
 
-[![Sample Video](Documentations/images/sample_video.gif)](Documentations/sample.mp4){ width="200" }
+[<img src="Documentations/sample_video.mp4" alt="Sample Video" width="300"/>](Documentations/sample.mp4)
 
 ## Getting Started
 
@@ -49,4 +43,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
