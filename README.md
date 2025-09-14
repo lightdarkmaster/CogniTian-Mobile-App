@@ -20,14 +20,14 @@ The following images show the various pages of the application.
 
 ### Information Page
 
-![Information Page](Documentations/images/tech_use.jpg)
+![Information Page](Documentations/tech_use.jpg)
 
 ### Sample Response
-![Information Page](Documentations/images/sample_res.jpg)
+![Information Page](Documentations/sample_res.jpg)
 
 
 ### History
-![Information Page](Documentations/images/history.jpg)
+![Information Page](Documentations/history.jpg)
 ## Sample Video
 
 The following video shows the application in action.
