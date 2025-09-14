@@ -29,7 +29,7 @@ The following images show the various pages of the application.
 
 The following video shows the application in action.
 
-[<img src="Documentations/sample_video.mp4" alt="Sample Video" width="300"/>](Documentations/sample.mp4)
+[<img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>](Documentations/trySample.gif)
 
 ## Getting Started
 
