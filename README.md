@@ -2,7 +2,9 @@
 
 <div align="center">
 
-A new Flutter project.
+# ChanAI - CogniTian
+By: Christian Barbosa - BSIT, Software Developer
+
 
 ## Project Overview
 
