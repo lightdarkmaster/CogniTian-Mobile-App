@@ -39,13 +39,14 @@ class _HomepageState extends State<Homepage> {
         Uri.parse("$apiUrl?key=$apiKey"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({
-          "contents": [
-            {
+          "contents": _messages.map((msg) {
+            return {
+              "role": msg["role"] == "user" ? "user" : "model",
               "parts": [
-                {"text": userMessage},
+                {"text": msg["text"] ?? ""},
               ],
-            },
-          ],
+            };
+          }).toList(),
         }),
       );
 
