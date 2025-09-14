@@ -17,6 +17,7 @@ The following images show the various pages of the application.
 <img src="Documentations/tech_use.jpg" alt="Information Page" width="300"/>
 <img src="Documentations/sample_res.jpg" alt="Sample Response" width="300"/>
 <img src="Documentations/history.jpg" alt="History" width="300"/>
+<img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>
 
 ## Sample Video
 
