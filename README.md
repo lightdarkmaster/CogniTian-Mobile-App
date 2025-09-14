@@ -12,27 +12,30 @@ The following images show the various pages of the application.
 
 ### Home Page
 
-![Home Page](Documentations/intro.jpg)
+![Home Page](Documentations/intro.jpg){ width="200" }
 
 ### Drawer
 
-![Drawer](Documentations/aboutapp.jpg)
+![Drawer](Documentations/aboutapp.jpg){ width="200" }
 
 ### Information Page
 
-![Information Page](Documentations/tech_use.jpg)
+![Information Page](Documentations/tech_use.jpg){ width="200" }
 
 ### Sample Response
-![Information Page](Documentations/sample_res.jpg)
+
+![Information Page](Documentations/sample_res.jpg){ width="200" }
 
 
 ### History
-![Information Page](Documentations/history.jpg)
+
+![History](Documentations/history.jpg){ width="200" }
+
 ## Sample Video
 
 The following video shows the application in action.
 
-[![Sample Video](Documentations/images/sample_video.gif)](Documentations/sample.mp4)
+[![Sample Video](Documentations/images/sample_video.gif)](Documentations/sample.mp4){ width="200" }
 
 ## Getting Started
 
