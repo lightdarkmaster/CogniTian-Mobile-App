@@ -4,7 +4,7 @@ import 'package:chanai_mobile/pages/drawer.dart';
 import 'package:chanai_mobile/pages/information.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter/services.dart'; // ✅ for Clipboard
+import 'package:flutter/services.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
