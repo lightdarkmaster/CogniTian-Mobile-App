@@ -1,5 +1,7 @@
 # chanai_mobile
 
+<div align="center">
+
 A new Flutter project.
 
 ## Project Overview
@@ -10,21 +12,17 @@ This project is a mobile application that showcases the various features of Flut
 
 The following images show the various pages of the application.
 
-<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-    <img src="Documentations/intro.jpg" alt="Home Page" width="300"/>
-    <img src="Documentations/aboutapp.jpg" alt="Drawer" width="300"/>
-    <img src="Documentations/tech_use.jpg" alt="Information Page" width="300"/>
-    <img src="Documentations/sample_res.jpg" alt="Sample Response" width="300"/>
-    <img src="Documentations/history.jpg" alt="History" width="300"/>
-</div>
+<img src="Documentations/intro.jpg" alt="Home Page" width="300"/>
+<img src="Documentations/aboutapp.jpg" alt="Drawer" width="300"/>
+<img src="Documentations/tech_use.jpg" alt="Information Page" width="300"/>
+<img src="Documentations/sample_res.jpg" alt="Sample Response" width="300"/>
+<img src="Documentations/history.jpg" alt="History" width="300"/>
 
 ## Sample Video
 
 The following video shows the application in action.
 
-<p style="text-align: center;">
-[<img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>](Documentations/trySample.gif)
-</p>
+<img src="Documentations/trySample.gif" alt="Sample Video" width="300"/>
 
 ## Getting Started
 
@@ -38,3 +36,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+</div>
