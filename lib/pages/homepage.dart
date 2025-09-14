@@ -51,7 +51,17 @@ class _HomepageState extends State<Homepage> {
 
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
-        final modelReply = data["candidates"][0]["content"]["parts"][0]["text"];
+        // final modelReply = data["candidates"][0]["content"]["parts"][0]["text"];
+        String sanitizeResponse(String text) {
+          // Remove markdown bold/italic markers (*, **, _)
+          return text
+              .replaceAll(RegExp(r'\*\*'), '') // remove bold markers
+              .replaceAll(RegExp(r'\*'), '') // remove italic markers
+              .replaceAll(RegExp(r'_'), ''); // remove underscores
+        }
+
+        final rawReply = data["candidates"][0]["content"]["parts"][0]["text"];
+        final modelReply = sanitizeResponse(rawReply);
 
         //instead of direct setState, use typing effect
         _showTypingEffect(modelReply);
