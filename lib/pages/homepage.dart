@@ -5,6 +5,7 @@ import 'package:chanai_mobile/pages/information.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/services.dart';
+import 'package:chanai_mobile/db/database_helper.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
@@ -102,12 +103,40 @@ class _HomepageState extends State<Homepage> {
     }
   }
 
-  void _startNewChat() {
+Future<void> _startNewChat() async {
+  if (_prompts.isNotEmpty && _messages.isNotEmpty) {
+    final title = _prompts.first.length > 20
+        ? _prompts.first.substring(0, 20)
+        : _prompts.first;
+
+    await DatabaseHelper.instance.insertConversation(
+      title: title,
+      prompts: _prompts,
+      messages: _messages,  // 🔑 store entire messages list
+    );
+
     setState(() {
       _messages.clear();
       _prompts.clear();
       _controller.clear();
     });
+
+    await _loadSavedConversations();
+  }
+}
+
+
+  List<Map<String, dynamic>> _savedConversations = [];
+
+  Future<void> _loadSavedConversations() async {
+    final data = await DatabaseHelper.instance.fetchAll();
+    setState(() => _savedConversations = data);
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    _loadSavedConversations();
   }
 
   void _insertPrompt(String prompt) {
@@ -247,9 +276,11 @@ class _HomepageState extends State<Homepage> {
       ),
       drawer: AppDrawer(
         prompts: _prompts,
+        savedChats: _savedConversations, // NEW
         onNewChat: _startNewChat,
         onSelectPrompt: _insertPrompt,
       ),
+
       body: Stack(
         children: [
           /// Main chat UI
